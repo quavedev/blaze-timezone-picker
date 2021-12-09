@@ -12,7 +12,7 @@ Npm.depends({
 Package.onUse(function(api, where) {
   api.versionsFrom("METEOR@2.5");
 
-  api.use(['blaze', 'templating', 'ecmascript'], 'client');
+  api.use(['blaze@2.5.0', 'templating@1.4.1', 'ecmascript'], 'client');
   api.use(['underscore'], 'client');
 
   api.addFiles([
